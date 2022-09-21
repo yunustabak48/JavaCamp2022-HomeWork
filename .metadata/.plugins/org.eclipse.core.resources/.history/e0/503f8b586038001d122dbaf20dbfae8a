@@ -1,0 +1,16 @@
+package loopDemo;
+
+public class main {
+
+	public static void main(String[] args) {
+		// for
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i);
+
+		}
+         System.out.println("Döngü Bitti");
+         // tek ve çift sayılar için i+=2 yapılır . çift sayılarda 
+         //i=2 den başlar.
+	}
+
+}

@@ -1,0 +1,36 @@
+package loopDemo;
+
+public class main {
+
+	public static void main(String[] args) {
+		// for
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i);
+
+		}
+		System.out.println("for Döngüsü Bitti");
+		// tek ve çift sayılar için i+=2 yapılır . çift sayılarda
+		// i=2 den başlar.
+
+		int i = 1;
+		// while
+		while (i < 10) {
+			System.out.println(i);
+			i++;
+
+		}
+
+		System.out.println("while Döngüsü Bitti");
+
+		// do-while
+		int j=1;
+		do {
+			System.out.println(j);
+			j+=2;
+
+		} while (j < 10);
+		System.out.println("do-while Döngüsü Bitti"); 
+		//döngünü şartları sağlanmazsa bile ilk değer basılır çalışır.
+	}
+
+}

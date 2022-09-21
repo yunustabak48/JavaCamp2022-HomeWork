@@ -1,0 +1,14 @@
+package datatypes;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		int sayi = 12;
+		byte sayi1 = 123;
+		double sayi3 = 10.5;
+		char karekter ='A';
+
+	}
+
+}
